@@ -1,3 +1,4 @@
+
 import requests as requests 
 import streamlit as st
 import pandas as pd
@@ -53,18 +54,4 @@ else:
         
             
 
-    # url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={stock_options}&apikey={api_key}"
-      
    
-    
-
-# stock_options = st.selectbox('Choose a stock', ['AAPL', 'MSFT', 'TSLA'])
-
-# api_key = "WUYIYQJYQDMWNQGH"
-# # company = stock_options
-# url = f"https://www.alphavantage.co/query?function=SYMBOL_SEARCH&symbol={company_name}&apikey={api_key}"
-# # url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={stock_options}&apikey={api_key}"
-# response = requests.get(url)
-# get_data = response.json()
-
-
