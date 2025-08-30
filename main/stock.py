@@ -1,4 +1,3 @@
-from rich import print
 import requests as requests 
 import streamlit as st
 import pandas as pd
